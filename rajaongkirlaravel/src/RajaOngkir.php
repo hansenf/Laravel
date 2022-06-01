@@ -1,10 +1,10 @@
 <?php
 
-namespace rizalafani\rajaongkirlaravel;
+namespace hansenf\rajaongkirlaravel;
 
-use rizalafani\rajaongkirlaravel\app\Provinsi;
-use rizalafani\rajaongkirlaravel\app\Kota;
-use rizalafani\rajaongkirlaravel\app\Cost;
+use hansenf\rajaongkirlaravel\app\Provinsi;
+use hansenf\rajaongkirlaravel\app\Kota;
+use hansenf\rajaongkirlaravel\app\Cost;
 
 class RajaOngkir {
 	public function Provinsi(){

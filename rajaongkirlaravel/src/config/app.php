@@ -1,15 +1,15 @@
 {
 	"require": {
-		"hansenferiandy/rajaongkirlaravel" : "dev-master"
+		"hansenf/rajaongkirlaravel" : "dev-master"
 	}
 }
 'providers' => [
 	....
 	
-	hansenferiandy\rajaongkirlaravel\RajaOngkirServiceProvider::class,
+	hansenf\rajaongkirlaravel\RajaOngkirServiceProvider::class,
 ]
 'aliases' => [
 	....
 	
-	'RajaOngkir' => hansenferiandy\rajaongkirlaravel\RajaOngkirFacade::class,
+	'RajaOngkir' => hansenf\rajaongkirlaravel\RajaOngkirFacade::class,
 ]
