@@ -1,5 +1,5 @@
 {
-    "name": "hansenf/laravel/rajaongkirlaravel",
+    "name": "hansenf/rajaongkirlaravel",
     "description": "Raja Ongkir API Laravel 5",
     "keywords": [
         "rajaongkir", "application programming interface", "laravel"
@@ -19,5 +19,10 @@
     },
     "require": {
     	"illuminate/support": "~5"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     }
 }

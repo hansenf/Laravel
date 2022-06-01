@@ -6,13 +6,13 @@ API ini digunakan ( baru tersedia ) untuk type akun starter
 
 Download package dengan composer
 ```
-composer require hansenf/laravel/rajaongkirlaravel
+composer require hansenf/rajaongkirlaravel
 ```
 atau
 ```
 {
 	"require": {
-		"hansenf/laravel/rajaongkirlaravel" : "dev-master"
+		"hansenf/rajaongkirlaravel" : "dev-master"
 	}
 }
 ```
@@ -22,7 +22,7 @@ Tambahkan service provider ke config/app.php
 'providers' => [
 	....
 	
-	hansenf/laravel\rajaongkirlaravel\RajaOngkirServiceProvider::class,
+	hansenf\rajaongkirlaravel\RajaOngkirServiceProvider::class,
 ]
 ```
 
@@ -31,7 +31,7 @@ Tambahkan juga aliasnya ke config/app.php
 'aliases' => [
 	....
 	
-	'RajaOngkir' => hansenf/laravel\rajaongkirlaravel\RajaOngkirFacade::class,
+	'RajaOngkir' => hansenf\rajaongkirlaravel\RajaOngkirFacade::class,
 ]
 ```
 
